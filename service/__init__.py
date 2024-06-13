@@ -38,7 +38,7 @@ except Exception as error:  # pylint: disable=broad-except
 
 app.logger.info("Service initialized!")
 
-#Create instance for Talisman
+# Create instance for Talisman
 talisman = Talisman(app)
 
 CORS(app)
